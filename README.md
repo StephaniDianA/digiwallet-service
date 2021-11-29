@@ -1,9 +1,21 @@
 # Digiwallet Service
-A mini project
+A digital wallet for recycling incentive scheme.
 
 ## Overview
-About Digiwallet Service
+### About recycling incentive scheme
+Recycling incentive scheme provide rewards to users for actively participating in the program. Plastic recycling rates remain low and stagnant across the globe. Financial incentives designed to persuade households and waste producers to reuse and recycle more, helps prevent the generation of waste and can help contribute to financing waste management activities.
 
+### How it will go:
+1. Users create recycling pickup order
+2. Couriers select pickup order from order list and attemp to pickup the recycling item
+3. Couriers transports the recycling items to collection station and update the order status
+4. when order status is 'delivered_to_destination', users can claim their rewards in the form of electronic money credit
+
+### Scope of project
+- user : individuals
+- item categories : PET, non-PET, disposable-mask, electronic
+- pickup time : anytime, specific-hour
+- order status: order_created, picked_up_by_courier, failed_picked_up, reattemped_to_picked_up, delivered_to_destination
 
 ## Getting Started
 
