@@ -64,5 +64,6 @@ This project was made using the following tools:
 - Intellij IDEA
 - Gitignore.io
 - Postman
+- SonarLint
 
 
