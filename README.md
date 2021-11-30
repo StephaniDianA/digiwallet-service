@@ -13,6 +13,7 @@ Recycling incentive scheme provide rewards to users for actively participating i
 
 ### Scope of project
 - user : individuals
+- user role : customer, courier
 - item categories : PET, non-PET, disposable-mask, electronic
 - pickup time : anytime, specific-hour
 - order status: order_created, picked_up_by_courier, failed_picked_up, reattemped_to_picked_up, delivered_to_destination
@@ -35,6 +36,9 @@ Recycling incentive scheme provide rewards to users for actively participating i
 mvn clean package
 ````
 3. Run the DigiwalletApplication
+````
+mvn spring-boot:run
+````
 
 ## API Operations
 The following is a list of supported operations:
