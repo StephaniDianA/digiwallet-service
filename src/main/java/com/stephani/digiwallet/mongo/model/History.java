@@ -11,15 +11,14 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-@Document(collection = "users")
-public class User {
+@Document(collection = "history")
+public class History {
 
     @Id
-    private String id;
-    private String name;
-    private String address;
-    private String phone;
-    private String email;
-    private String role;
-    private Long digicash;
+    private String primaryId;
+    private String primaryCode;
+    private String oldValue;
+    private String newValue;
+    private String action;
+    private Long generateDate;
 }

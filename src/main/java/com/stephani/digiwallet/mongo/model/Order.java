@@ -11,15 +11,16 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-@Document(collection = "users")
-public class User {
+@Document(collection = "orders")
+public class Order {
 
     @Id
     private String id;
-    private String name;
-    private String address;
-    private String phone;
-    private String email;
-    private String role;
-    private Long digicash;
+    private String referenceNumber;
+    private String pickupDate;
+    private String pickupTime;
+    private String item;
+    private String status;
+    private String customerId;
+    private String courierId;
 }

@@ -3,7 +3,22 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../../AIT/Projects/bo-scf-service_github/bo-scf-service/src/main/java/bca/mbb/boscfservice/exception/CustomRestExceptionHandler.java">
           <value>
             <set />
           </value>
@@ -48,6 +63,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/stephani/digiwallet/controller/OrderController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/stephani/digiwallet/controller/UserController.java">
           <value>
             <set />
@@ -68,7 +88,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/stephani/digiwallet/entity/dto/OrderDto.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/stephani/digiwallet/entity/dto/UserDto.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/stephani/digiwallet/exception/ApiError.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/stephani/digiwallet/exception/CustomRestExceptionHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/stephani/digiwallet/exception/DataNotFound.java">
           <value>
             <set />
           </value>
@@ -83,12 +123,37 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/stephani/digiwallet/mongo/model/History.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/stephani/digiwallet/mongo/model/Order.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/stephani/digiwallet/mongo/model/User.java">
           <value>
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/stephani/digiwallet/mongo/repository/HistoryRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/stephani/digiwallet/mongo/repository/OrderRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/stephani/digiwallet/mongo/repository/UserRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/stephani/digiwallet/payload/request/OrderRequest.java">
           <value>
             <set />
           </value>
@@ -99,6 +164,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/stephani/digiwallet/payload/response/BaseResponse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/stephani/digiwallet/payload/response/DetailOrderResponse.java">
           <value>
             <set />
           </value>
@@ -118,12 +188,37 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/stephani/digiwallet/redis/repository/RedisOrderRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/stephani/digiwallet/redis/repository/RedisUserRepository.java">
           <value>
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/stephani/digiwallet/service/EsUserService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/stephani/digiwallet/service/ListenerService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/stephani/digiwallet/service/OrderService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/stephani/digiwallet/service/UserService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/stephani/digiwallet/util/Constant.java">
           <value>
             <set />
           </value>
@@ -159,6 +254,176 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/test/java/com/stephani/digiwallet/ElasticsearchTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/stephani/digiwallet/controller/ElasticUserControllerTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/stephani/digiwallet/controller/OrderControllerTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/stephani/digiwallet/controller/UserControllerTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/stephani/digiwallet/service/EsUserServiceTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/stephani/digiwallet/service/OrderServiceTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/stephani/digiwallet/service/UserServiceTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../recyclebank/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../recyclebank/src/main/java/com/stephani/recyclebank/config/ElasticsearchConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../recyclebank/src/main/java/com/stephani/recyclebank/config/KafkaConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../recyclebank/src/main/java/com/stephani/recyclebank/config/RedisConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../recyclebank/src/main/java/com/stephani/recyclebank/config/SwaggerConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../recyclebank/src/main/java/com/stephani/recyclebank/controller/ElasticUserController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../recyclebank/src/main/java/com/stephani/recyclebank/controller/UserController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../recyclebank/src/main/java/com/stephani/recyclebank/dto/UserDto.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../recyclebank/src/main/java/com/stephani/recyclebank/elasticsearch/entity/EsUser.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../recyclebank/src/main/java/com/stephani/recyclebank/elasticsearch/repository/EsUserRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../recyclebank/src/main/java/com/stephani/recyclebank/exception/UserExceptionController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../recyclebank/src/main/java/com/stephani/recyclebank/exception/UserNotFoundException.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../recyclebank/src/main/java/com/stephani/recyclebank/mongo/entity/User.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../recyclebank/src/main/java/com/stephani/recyclebank/mongo/repository/UserRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../recyclebank/src/main/java/com/stephani/recyclebank/payload/request/UserRequest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../recyclebank/src/main/java/com/stephani/recyclebank/payload/response/BaseResponse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../recyclebank/src/main/java/com/stephani/recyclebank/payload/response/DetailUserResponse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../recyclebank/src/main/java/com/stephani/recyclebank/payload/response/ListUserResponse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../recyclebank/src/main/java/com/stephani/recyclebank/redis/repository/RedisUserRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../recyclebank/src/main/java/com/stephani/recyclebank/service.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../recyclebank/src/main/java/com/stephani/recyclebank/service/UserService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../recyclebank/src/main/java/com/stephani/recyclebank/util/ResponseUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../recyclebank/src/main/java/com/stephani/recyclebank/util/UrlUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../recyclebank/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../recyclebank/src/main/resources/elasticsearch.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../recyclebank/src/main/resources/kafka.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../recyclebank/src/test/java/com/stephani/recyclebank/ElasticsearchTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../recyclebank/src/test/java/com/stephani/recyclebank/RecyclebankApplicationTests.java">
           <value>
             <set />
           </value>

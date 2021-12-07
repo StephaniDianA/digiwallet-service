@@ -11,18 +11,17 @@ import javax.validation.constraints.NotBlank;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class UserRequest {
+public class OrderRequest {
 
+    private String referenceNumber;
     @NotBlank
-    private String name;
+    private String pickupDate;
     @NotBlank
-    private String address;
+    private String pickupTime;
     @NotBlank
-    private String phone;
+    private String item;
+    private String status;
     @NotBlank
-    private String email;
-    @NotBlank
-    private String role;
-    private Long digicash;
-
+    private String customerId;
+    private String courierId;
 }

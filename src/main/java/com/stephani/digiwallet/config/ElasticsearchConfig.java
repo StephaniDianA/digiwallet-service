@@ -23,7 +23,7 @@ public class ElasticsearchConfig extends AbstractElasticsearchConfiguration {
     public RestHighLevelClient elasticsearchClient() {
         System.out.println(">> Elastic node : "+host+":"+port);
         final ClientConfiguration clientConfiguration = ClientConfiguration.builder()
-                .connectedTo(host+" : "+port)
+                .connectedTo(host+":"+port)
                 .build();
         return RestClients.create(clientConfiguration).rest();
     }

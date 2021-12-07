@@ -1,5 +1,6 @@
 package com.stephani.digiwallet.controller;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.stephani.digiwallet.config.SwaggerConfig;
 import com.stephani.digiwallet.payload.request.UserRequest;
 import com.stephani.digiwallet.payload.response.BaseResponse;
@@ -27,28 +28,28 @@ public class UserController {
     @GetMapping("/{id}")
     public ResponseEntity<DetailUserResponse> findById(@PathVariable String id) {
         DetailUserResponse response = userService.findById(id);
-        return new ResponseEntity<DetailUserResponse>(response, HttpStatus.OK);
+        return new ResponseEntity<>(response, HttpStatus.OK);
     }
 
     @ApiOperation(value = "Return detail of created user")
     @PostMapping
-    public ResponseEntity<DetailUserResponse> create(@Valid @RequestBody UserRequest request) {
+    public ResponseEntity<DetailUserResponse> create(@Valid @RequestBody UserRequest request) throws JsonProcessingException {
         DetailUserResponse response = userService.create(request);
-        return new ResponseEntity<DetailUserResponse>(response, HttpStatus.OK);
+        return new ResponseEntity<>(response, HttpStatus.CREATED);
     }
 
     @ApiOperation(value = "Return detail of updated user")
     @PutMapping("/{id}")
     public ResponseEntity<DetailUserResponse> update(@PathVariable String id, @RequestBody UserRequest request) {
         DetailUserResponse response = userService.update(id, request);
-        return new ResponseEntity<DetailUserResponse>(response, HttpStatus.OK);
+        return new ResponseEntity<>(response, HttpStatus.OK);
     }
 
     @ApiOperation(value = "Return response of user deleted")
     @DeleteMapping("/{id}")
     public ResponseEntity<BaseResponse> delete(@PathVariable String id) {
         BaseResponse response = userService.delete(id);
-        return new ResponseEntity<BaseResponse>(response, HttpStatus.OK);
+        return new ResponseEntity<>(response, HttpStatus.OK);
     }
 
 }

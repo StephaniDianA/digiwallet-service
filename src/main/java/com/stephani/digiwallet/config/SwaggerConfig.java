@@ -10,14 +10,13 @@ import springfox.documentation.service.Contact;
 import springfox.documentation.service.Tag;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
-import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @Configuration
-@EnableSwagger2
 public class SwaggerConfig {
 
     public static final String ELASTIC_CONTROLLER = "elastic-controller";
     public static final String USER_CONTROLLER = "user-controller";
+    public static final String ORDER_CONTROLLER = "order-controller";
 
     @Bean
     public Docket digiwalletApi() {
@@ -28,7 +27,8 @@ public class SwaggerConfig {
                 .build()
                 .apiInfo(apiInfo())
                 .tags(new Tag(ELASTIC_CONTROLLER, "Elasticsearch service endpoint"))
-                .tags(new Tag(USER_CONTROLLER, "User service endpoint"));
+                .tags(new Tag(USER_CONTROLLER, "User service endpoint"))
+                .tags(new Tag(ORDER_CONTROLLER, "Order service endpoint"));
     }
 
     private ApiInfo apiInfo() {

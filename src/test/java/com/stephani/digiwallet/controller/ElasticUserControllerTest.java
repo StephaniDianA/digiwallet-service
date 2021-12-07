@@ -1,6 +1,5 @@
-package com.stephani.digiwallet;
+package com.stephani.digiwallet.controller;
 
-import com.stephani.digiwallet.controller.ElasticUserController;
 import com.stephani.digiwallet.elasticsearch.model.EsUser;
 import com.stephani.digiwallet.elasticsearch.repository.EsUserRepository;
 import org.junit.jupiter.api.Test;
@@ -16,7 +15,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.when;
 
 @SpringBootTest
-public class ElasticsearchTest {
+public class ElasticUserControllerTest {
 
     @Autowired
     private ElasticUserController elasticUserController;
@@ -25,7 +24,7 @@ public class ElasticsearchTest {
     private EsUserRepository elasticUserRepository;
 
     @Test
-    public void findAllProductTest() {
+    public void findAllUserTest() {
         when(elasticUserRepository.findAll()).thenReturn(
                 new PageImpl<EsUser>(Stream.of(
                         new EsUser("123","Anna","Mockito Street 7","customer"), new EsUser("456","Bob","Springboot Street 9","courier")

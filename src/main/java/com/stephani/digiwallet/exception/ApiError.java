@@ -1,4 +1,4 @@
 package com.stephani.digiwallet.exception;
 
-public class UserExceptionController {
+public class ApiError {
 }
