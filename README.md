@@ -41,12 +41,13 @@ mvn spring-boot:run
 ````
 
 ## API Operations
-The following is a list of supported operations:
-- save new user
-- retrieve a user
-- retrieve all user
-- update a user
-- delete a user
+The following are the list of supported operations:
+![digiwallet-1](https://user-images.githubusercontent.com/48918637/144992046-a66e10b3-1498-41fb-90e7-e53aec02d034.JPG)
+![digiwallet-2](https://user-images.githubusercontent.com/48918637/144992121-70ba35ed-6c46-4d68-8b38-4cee8d570645.JPG)
+
+Sample of operation from OrderController:
+![digiwallet-3](https://user-images.githubusercontent.com/48918637/144992251-134475c4-3bd5-4c93-a8d3-1d0a7867a7a9.JPG)
+
 
 ## Technologies
 This project uses the following technologies:
