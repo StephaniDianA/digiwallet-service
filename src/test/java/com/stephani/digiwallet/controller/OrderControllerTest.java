@@ -2,12 +2,14 @@ package com.stephani.digiwallet.controller;
 
 import com.stephani.digiwallet.mongo.model.Order;
 import com.stephani.digiwallet.mongo.repository.OrderRepository;
-import com.stephani.digiwallet.payload.request.OrderRequest;
 import com.stephani.digiwallet.util.Constant;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 import java.util.Objects;
 import java.util.Optional;
@@ -15,6 +17,8 @@ import java.util.Optional;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.when;
 
+@AutoConfigureMockMvc
+@ExtendWith({SpringExtension.class})
 @SpringBootTest
 public class OrderControllerTest {
 

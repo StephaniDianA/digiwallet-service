@@ -1,6 +1,4 @@
 
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 l
 <src/main/java/com/stephani/digiwallet/util/ResponseUtil.java,e\5\e5d4e697629aaaeff42c9d41665cdc5dc989cae9
 m
@@ -9,8 +7,6 @@ m
 Lsrc/main/java/com/stephani/digiwallet/payload/response/ListUserResponse.java,a\f\af3f380accbf7fa08c26805cfab49c78eae37891
 „
 Tsrc/main/java/com/stephani/digiwallet/elasticsearch/repository/EsUserRepository.java,b\4\b491d76f1cf9b59e79547e73e25d2a0401ee31b6
-p
-@src/main/java/com/stephani/digiwallet/DigiwalletApplication.java,b\1\b1773127117b3b15e6203b7b84954dfc5d17407b
 u
 Esrc/main/java/com/stephani/digiwallet/elasticsearch/model/EsUser.java,0\1\017431def6fb76433d2c30d680e1cc48f8efb5a4
 l

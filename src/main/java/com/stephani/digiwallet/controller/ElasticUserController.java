@@ -6,7 +6,6 @@ import com.stephani.digiwallet.elasticsearch.repository.EsUserRepository;
 import com.stephani.digiwallet.payload.response.BaseResponse;
 import com.stephani.digiwallet.payload.response.ListUserResponse;
 import com.stephani.digiwallet.service.EsUserService;
-import com.stephani.digiwallet.service.UserService;
 import com.stephani.digiwallet.util.ResponseUtil;
 import com.stephani.digiwallet.util.UrlUtil;
 import io.swagger.annotations.Api;
